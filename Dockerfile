@@ -1,4 +1,4 @@
-FROM linuxserver/brave:1.98.62-ls142
+FROM linuxserver/brave:1.98.63-ls143
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
